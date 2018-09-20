@@ -1,0 +1,152 @@
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Main_1"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
+ xmlns:ui="http://schemas.uipath.com/workflow/activities"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Core.Activities</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Recording Sequence" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <ui:SelectItem ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select item 'list  Desktop'" sap2010:WorkflowViewState.IdRef="SelectItem_1" Item="ggggg">
+      <ui:SelectItem.Items>
+        <scg:List x:TypeArguments="x:String" Capacity="128">
+          <x:String>Recycle Bin</x:String>
+          <x:String>Peter</x:String>
+          <x:String>Blue Prism</x:String>
+          <x:String>Google Chrome</x:String>
+          <x:String>Mozilla Firefox</x:String>
+          <x:String>BP PDF</x:String>
+          <x:String>Multi Receipts Processing</x:String>
+          <x:String>PDFCombo</x:String>
+          <x:String>Train</x:String>
+          <x:String>Test.bprelease</x:String>
+          <x:String>FAXB232169_PDF1</x:String>
+          <x:String>NFPA dataset</x:String>
+          <x:String>Postman</x:String>
+          <x:String>Acrobat Reader DC</x:String>
+          <x:String>Passcode</x:String>
+          <x:String>PDF-Files</x:String>
+          <x:String>GooglePDFs</x:String>
+          <x:String>Baylor</x:String>
+          <x:String>AANKH</x:String>
+          <x:String>ENMA_Factura_Venta 174264_Abbyy</x:String>
+          <x:String>Data_Privacy-Personal_Incident_Response_Plan_v1.0</x:String>
+          <x:String>Passcode2_0</x:String>
+          <x:String>Baylor stuff</x:String>
+          <x:String>FilesT12345</x:String>
+          <x:String>Request for Quotation SERVICE SUMMARY Service Title Conducting engineering laboratory tests for construction projects Contract Period One year Projects Locations The project are located in the capital cities of the provin</x:String>
+          <x:String>ResearchImages</x:String>
+          <x:String>machine learning office</x:String>
+          <x:String>UiPathPlatform</x:String>
+          <x:String>anyconnect-win-4.2.03013-web-deploy-k9</x:String>
+          <x:String>Document11</x:String>
+          <x:String>Daily Tracker</x:String>
+          <x:String>TE</x:String>
+          <x:String>BANPV6275N_2018-19 - Copy</x:String>
+          <x:String>MTR Scans</x:String>
+          <x:String>TrainDataset</x:String>
+          <x:String>darkflow-master</x:String>
+          <x:String>Windows-Machine-Learning-master</x:String>
+          <x:String>RPA All MIX</x:String>
+          <x:String>YogaBot</x:String>
+          <x:String>Windows-Machine-Learning-master</x:String>
+          <x:String>Project Assessment Quotation</x:String>
+          <x:String>Anaconda Prompt</x:String>
+          <x:String>PeterImg</x:String>
+          <x:String>Personal Q and A BP</x:String>
+          <x:String>IMG-20180625-WA0002</x:String>
+          <x:String>BANPV6275N_2018-19</x:String>
+          <x:String>FilePathChange</x:String>
+          <x:String>FilePath</x:String>
+          <x:String>Community.Activities-master</x:String>
+          <x:String>FreeBird</x:String>
+          <x:String>FilesT</x:String>
+          <x:String>Valeo Demo-20180830 0818-7.arf</x:String>
+          <x:String>PetervarghesBPcertificate</x:String>
+          <x:String>PearsonPeterVarghese</x:String>
+          <x:String>predownload.tmp</x:String>
+          <x:String>AA Enterprise Client 11.2</x:String>
+          <x:String>Automation Anywhere Control Room</x:String>
+          <x:String>Reimbur</x:String>
+          <x:String>Master key</x:String>
+          <x:String>t</x:String>
+          <x:String>PearsonPeterV</x:String>
+          <x:String>peter vargese RPA</x:String>
+          <x:String>ADD COLLABORATORS IN GITHUB PROJECT - AA</x:String>
+          <x:String>ADD COLLABORATORS IN GITHUB PROJECT - AA</x:String>
+          <x:String>ggggg</x:String>
+        </scg:List>
+      </ui:SelectItem.Items>
+      <ui:SelectItem.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="17d3a8d03d7b87f70f1a92a97e01900d" Selector="&lt;wnd app='explorer.exe' cls='Progman' title='Program Manager' /&gt;&lt;wnd cls='SysListView32' title='FolderView' /&gt;&lt;ctrl name='Desktop' role='list' /&gt;" WaitForReady="INTERACTIVE" />
+      </ui:SelectItem.Target>
+    </ui:SelectItem>
+    <ui:TypeInto DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="False" DisplayName="Type into 'editable text  Name'" EmptyField="False" sap2010:WorkflowViewState.IdRef="TypeInto_1" SendWindowMessages="False" SimulateType="False" Text="12">
+      <ui:TypeInto.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" TimeoutMS="{x:Null}" InformativeScreenshot="a0bf9778450580590869323cc0f3724a" Selector="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='ggggg' /&gt;&lt;wnd cls='ShellTabWindowClass' title='ggggg' /&gt;&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Shell Folder View' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" WaitForReady="INTERACTIVE" />
+      </ui:TypeInto.Target>
+    </ui:TypeInto>
+    <sads:DebugSymbol.Symbol>dy1DOlxVc2Vyc1xwdjAwNDkzNjgzXERlc2t0b3BcVGVzdFdvcmtmbG93LnhhbWwHOAOJAQ4CAQE5BYIBFQIBBYMBBYcBEwIBAjm6ATnBAQIBBoABmAGAAb0CAgEHhQGYAYUBzAQCAQSDAaUCgwGpAgIBAw==</sads:DebugSymbol.Symbol>
+  </Sequence>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="SelectItem_1" sap:VirtualizedContainerService.HintSize="314,134" />
+      <sap2010:ViewStateData Id="TypeInto_1" sap:VirtualizedContainerService.HintSize="314,134" />
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="336,432">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Main_1" sap:VirtualizedContainerService.HintSize="376,1192" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>
